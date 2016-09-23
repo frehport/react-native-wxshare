@@ -1,0 +1,11 @@
+import { NativeModule } from 'react-native'
+
+export default class WxShare {
+    static registerApp(key) {
+         NativeModules.WxShare.registerApp(key)
+    }
+
+    static share(array) {
+       NativeModules.WxShare.share(array) 
+    }
+}

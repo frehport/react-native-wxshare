@@ -1,0 +1,17 @@
+
+  "name": "react-native-wxshare",
+  "version": "0.0.1",
+  "description": "wechat social share for react-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechat",
+    "react-native",
+    "social",
+    "share"
+  ],
+  "author": "novaloud",
+  "license": "ISC"
+}

@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A22C94A51D94BDE8008D57D0 /* WxShareDataFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A22C94A41D94BDE8008D57D0 /* WxShareDataFormatter.m */; };
+		A2B907D61D942BE300FF29E9 /* WxShare.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B907D51D942BE300FF29E9 /* WxShare.m */; };
+		A2B907D71D942BE300FF29E9 /* WxShare.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A2B907D41D942BE300FF29E9 /* WxShare.h */; };
+		A2B907E21D942C1D00FF29E9 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B907DE1D942C1D00FF29E9 /* libWeChatSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2B907CF1D942BE300FF29E9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A2B907D71D942BE300FF29E9 /* WxShare.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A22C94A31D94BDE8008D57D0 /* WxShareDataFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WxShareDataFormatter.h; sourceTree = "<group>"; };
+		A22C94A41D94BDE8008D57D0 /* WxShareDataFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WxShareDataFormatter.m; sourceTree = "<group>"; };
+		A2B907D11D942BE300FF29E9 /* libWxShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWxShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B907D41D942BE300FF29E9 /* WxShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WxShare.h; sourceTree = "<group>"; };
+		A2B907D51D942BE300FF29E9 /* WxShare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WxShare.m; sourceTree = "<group>"; };
+		A2B907DE1D942C1D00FF29E9 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		A2B907DF1D942C1D00FF29E9 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		A2B907E01D942C1D00FF29E9 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		A2B907E11D942C1D00FF29E9 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2B907CE1D942BE300FF29E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B907E21D942C1D00FF29E9 /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2B907C81D942BE300FF29E9 = {
+			isa = PBXGroup;
+			children = (
+				A2B907D31D942BE300FF29E9 /* WxShare */,
+				A2B907D21D942BE300FF29E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2B907D21D942BE300FF29E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2B907D11D942BE300FF29E9 /* libWxShare.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2B907D31D942BE300FF29E9 /* WxShare */ = {
+			isa = PBXGroup;
+			children = (
+				A2B907DD1D942C1D00FF29E9 /* Support */,
+				A2B907D41D942BE300FF29E9 /* WxShare.h */,
+				A2B907D51D942BE300FF29E9 /* WxShare.m */,
+				A22C94A31D94BDE8008D57D0 /* WxShareDataFormatter.h */,
+				A22C94A41D94BDE8008D57D0 /* WxShareDataFormatter.m */,
+			);
+			path = WxShare;
+			sourceTree = "<group>";
+		};
+		A2B907DD1D942C1D00FF29E9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A2B907DE1D942C1D00FF29E9 /* libWeChatSDK.a */,
+				A2B907DF1D942C1D00FF29E9 /* WechatAuthSDK.h */,
+				A2B907E01D942C1D00FF29E9 /* WXApi.h */,
+				A2B907E11D942C1D00FF29E9 /* WXApiObject.h */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2B907D01D942BE300FF29E9 /* WxShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B907DA1D942BE300FF29E9 /* Build configuration list for PBXNativeTarget "WxShare" */;
+			buildPhases = (
+				A2B907CD1D942BE300FF29E9 /* Sources */,
+				A2B907CE1D942BE300FF29E9 /* Frameworks */,
+				A2B907CF1D942BE300FF29E9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WxShare;
+			productName = WxShare;
+			productReference = A2B907D11D942BE300FF29E9 /* libWxShare.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2B907C91D942BE300FF29E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = euky;
+				TargetAttributes = {
+					A2B907D01D942BE300FF29E9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A2B907CC1D942BE300FF29E9 /* Build configuration list for PBXProject "WxShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2B907C81D942BE300FF29E9;
+			productRefGroup = A2B907D21D942BE300FF29E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2B907D01D942BE300FF29E9 /* WxShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2B907CD1D942BE300FF29E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B907D61D942BE300FF29E9 /* WxShare.m in Sources */,
+				A22C94A51D94BDE8008D57D0 /* WxShareDataFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A2B907D81D942BE300FF29E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2B907D91D942BE300FF29E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2B907DB1D942BE300FF29E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WxShare/Support",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A2B907DC1D942BE300FF29E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WxShare/Support",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2B907CC1D942BE300FF29E9 /* Build configuration list for PBXProject "WxShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B907D81D942BE300FF29E9 /* Debug */,
+				A2B907D91D942BE300FF29E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B907DA1D942BE300FF29E9 /* Build configuration list for PBXNativeTarget "WxShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B907DB1D942BE300FF29E9 /* Debug */,
+				A2B907DC1D942BE300FF29E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2B907C91D942BE300FF29E9 /* Project object */;
+}
