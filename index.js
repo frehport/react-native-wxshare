@@ -1,4 +1,4 @@
-import { NativeModule } from 'react-native'
+import { NativeModules } from 'react-native'
 
 export default class WxShare {
     static registerApp(key) {
