@@ -8,4 +8,8 @@ export default class WxShare {
     static share(array) {
        NativeModules.WxShare.share(array) 
     }
+
+    static shareText(arr) {
+        NativeModules.WxShare.shareText(arr) 
+    }
 }
